@@ -12,10 +12,12 @@
 </head>
 <body>
     <h1>Quiz Board</h1>
-    <div class="quiz">
+
+    <!--
+        <div class="quiz">
         <form id="add">
             <fieldset>
-                <p>What is the shortform of HTML</p>
+                <p id="quiz-one">What is the shortform of HTML</p>
                 <input type="radio" name="HTML" id="HTML">
                 <label for="HTML">HTML</label><br>
                 <input type="radio" name="HMLT" id="HMLT">
@@ -38,7 +40,37 @@
                 </fieldset>
         </form>
     </div>
-<script src="js/script.js">
+    -->
+    
+
+    <div class="quiz">
+        <div class="quiz-header">
+            <h1>Answer Questions</h1>
+        </div>
+
+        <div class="quiz-container">
+            <h2 id="question-text">Question</h2>
+            <ul>
+                <li><input type="radio" name="answer" class="answer-one">
+                    <label for="answer-one" id="choice-one">answer</label>
+                </li>
+
+                <li><input type="radio" name="answer" class="answer-one">
+                    <label for="answer-one" id="choice two">answer</label>
+                </li>
+
+                <li><input type="radio" name="answer" class="answer-one">
+                    <label for="answer-one" id="choice-three ">answer</label>
+                </li>
+            </ul>
+
+            <button id="submit">submit</button>
+        </div>
+    </div>
+        
+    
+
+<script src="./speed-test-spar/javascript/script.js">
     
 </script>
 </body>
