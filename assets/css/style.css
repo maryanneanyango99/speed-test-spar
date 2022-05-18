@@ -2,6 +2,9 @@ h1{
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: center;
 }
+body{
+    background-color: aqua;
+}
 
 .Submit{
     background-color: rgb(36, 141, 36);
